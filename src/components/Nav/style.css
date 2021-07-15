@@ -1,0 +1,8 @@
+#nav {
+    position: fixed;
+
+    width: 100vw;
+    height: 100px;
+
+    background: #1f1f24;
+}

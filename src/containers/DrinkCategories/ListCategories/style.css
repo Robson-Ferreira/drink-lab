@@ -1,0 +1,26 @@
+#categories {
+    width: 100vw;
+    height: 100vh;
+    background: #121214;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s;
+}
+
+#categories .render {
+    max-width: 55%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+
+    border-top: 2px solid #FFF;
+    border-radius: 3px;
+
+    padding-top: 40px;
+}

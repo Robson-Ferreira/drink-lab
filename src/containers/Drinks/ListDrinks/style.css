@@ -1,0 +1,25 @@
+#list-drinks {
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+
+    background: #121214;
+}
+
+#list-drinks .render {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+    background-color: #1f1f24;
+    border-radius: 18px;
+
+    max-width: 80%;
+    margin: 10%;
+    flex-wrap: wrap;
+}
