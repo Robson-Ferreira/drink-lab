@@ -8,22 +8,28 @@
 
     flex-direction: column;
 
-    background: linear-gradient(270deg,#0f0c14,#121214);
+    background: #121214;
 }
 
 #landing .header h3 {
-    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 130px;
+    height: 130px;
     padding: 16px;
 
-    font-size: 23px;
-    font-weight: 700;
-    border-radius: 7px;
+    border-radius: 180px;
+
+    font-size: 17px;
+    font-weight: 600;
 
     text-transform: uppercase;
     text-align: center;
     
-    background: #FFF;
-    color: #121214;
+    background: #1f1f24;  
+    color: #FFF;
 }
 
 
@@ -38,10 +44,13 @@
 
 
 #landing .main h1 {
+    color: #FFF;
     font-size: 87px;
 }
 
 #landing .main p {
+    color: #FFF;
+
     margin-top: 20px;
     text-align: center;
 
@@ -70,22 +79,26 @@
 }
 
 #landing .footer {
+    width: 200px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+}
 
-    width: 150px;
-    height: 35px;
+#landing .footer a {
+    display: flex;
+    justify-content: center;
+
+    background: #FFF;
+
+    margin-right: 20px;
+    border-radius: 30px;
+
+    transition: all 0.4s;
 }
  
 #landing .footer .anticon {
     padding: 7px;
 
     color: #121214;
-    background: #FFF;
-
     font-size: 19px;
-    border-radius: 20px;
-
-    transition: all 0.4s;
 }

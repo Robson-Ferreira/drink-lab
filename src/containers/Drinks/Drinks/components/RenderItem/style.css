@@ -3,7 +3,7 @@
     flex-direction: column;
     
     width: 320px;
-    height: 340px;
+    height: 320px;
 
     margin: 20px;
     padding: 12px;
@@ -12,6 +12,7 @@
     border-top-right-radius: 18px;
 
     background: #FFF;
+    cursor: pointer;
 
     transition: all 0.3s;
 }
@@ -22,23 +23,18 @@
     margin: 0 20px;
 }
 
-#card a {
-    text-decoration: none;
-}
-
-
 #card .header {
     display: flex;
     justify-content: center;
 }
 
 #card .header h4 {
-    width: 80%;
+    width: 93%;
     text-align: center;
     color: #000;
 
     border-bottom: 2px solid #ccc;
-    padding: 10px 18px;
+    padding: 10px 0px;
 }
 
 #card .main {

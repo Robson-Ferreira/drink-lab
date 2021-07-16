@@ -1,8 +1,8 @@
 import React from 'react';
 
-import RenderItem from './RenderItem';
-import Nav from '../../../components/Nav';
-import ButtonBack from '../../../components/ButtonBack';
+import RenderItem from '../RenderItem';
+import Nav from '../../../../../components/Nav';
+import ButtonBack from '../../../../../components/ButtonBack';
 
 import './style.css';
 

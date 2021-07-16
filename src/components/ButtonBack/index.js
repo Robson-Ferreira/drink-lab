@@ -1,14 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import { StepBackwardOutlined } from '@ant-design/icons';
 
 import './style.css';
 
-const ButtonBack = ({ to }) => {
+const ButtonBack = () => {
+    const history = useHistory();
+
     return (
-        <Link to={to} className="btn-back">
+        <button 
+            type="button" 
+            className="btn-back" 
+            onClick={() => history.goBack()}
+        >
             <StepBackwardOutlined></StepBackwardOutlined>
-        </Link>
+        </button>
     );
 }
 

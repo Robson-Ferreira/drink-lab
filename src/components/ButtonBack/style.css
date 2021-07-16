@@ -5,7 +5,7 @@
 
     position: fixed;
     left: 70px;
-    top: 25px;
+    top: 40px;
 
     color: #121214;
     background: #FFF;
@@ -13,9 +13,12 @@
     width: 30px;
     height: 30px;
 
+    border: none;
     border-radius: 15px;
     padding: 25px;
     font-size: 26px;
+
+    cursor: pointer;
 
     transition: all 0.3s;
 }

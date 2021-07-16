@@ -17,7 +17,8 @@ const RenderItem = ({ item }) => {
     }, [selected]);
 
     const onChange = () => {
-        const url = `/drinks?c=${selected}`;
+        console.log(selected);
+        const url = `/drinks/?c=${selected}`;
         history.push(url);
     }
 
@@ -26,15 +27,15 @@ const RenderItem = ({ item }) => {
     }
 
     return (
-        <div id="item">
-            <main>
-                <span>{ item.strCategory }</span>
-            </main>
-
-            <footer>
-                <button type="button" onClick={() => handleClick(item.strCategory)}>Go</button>
-            </footer>
-        </div>
+        <>
+            <button 
+                className="item"
+                type="button" 
+                onClick={() => handleClick(item.strCategory)}
+            >
+                { item.strCategory }
+            </button>
+        </>
     );
 }
 
