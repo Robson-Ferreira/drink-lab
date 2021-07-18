@@ -23,9 +23,9 @@ const Landing = () => {
             </main>
 
             <footer className="footer">
-                <Link to='/'><FacebookOutlined /></Link>
-                <Link to='/'><InstagramOutlined /></Link>
-                <Link to='/'><TwitterOutlined /></Link>
+                <a href={process.env.REACT_APP_INSTAGRAM_URL}><FacebookOutlined /></a>
+                <a href={process.env.REACT_APP_FACEBOOK_URL}><InstagramOutlined /></a>
+                <a href={process.env.REACT_APP_TWITTER_URL}><TwitterOutlined /></a>
             </footer>
         </div>
     );

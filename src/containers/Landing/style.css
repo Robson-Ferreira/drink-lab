@@ -93,12 +93,12 @@
     margin-right: 20px;
     border-radius: 30px;
 
+    padding: 7px;
+    font-size: 19px;
+
     transition: all 0.4s;
 }
  
 #landing .footer .anticon {
-    padding: 7px;
-
     color: #121214;
-    font-size: 19px;
 }

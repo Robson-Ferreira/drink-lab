@@ -3,7 +3,7 @@ import React from 'react';
 import Nav from '../../../../../components/Nav';
 import ButtonBack from '../../../../../components/ButtonBack';
 
-import { Divider, Tag } from 'antd';
+import { Tag } from 'antd';
 
 import './style.css';
 
@@ -27,16 +27,13 @@ const RenderCard = ({ data }) => {
                         </header>
 
                         <main className="main">
-                            <p>{ item.strInstructions }</p>
-
-                            <div className="">
-                                <p>{ item.strIngredient1 }</p>
+                            <div className="info">
+                                <strong>Ingredients</strong>
+                                <span>{ item.strIngredient1 }, {  item.strIngredient2 }, {  item.strIngredient3 }</span>
                             </div>
-                        </main>
 
-                        <footer className="footer">
-                            <p>This is footer</p>
-                        </footer>
+                            <p>{ item.strInstructions }</p>
+                        </main>
                     </div>
                 )) }
             </div>
